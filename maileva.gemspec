@@ -7,7 +7,7 @@ require 'rake'
 
 Gem::Specification.new do |s|
   s.name     = "maileva"
-  s.version  = "0.1.0"
+  s.version  = "0.1.1"
   s.license  = "BSD-3-Clause"
   s.summary  = "Send mails through Maileva FTP deposit"
   s.author   = "Kévin Lesénéchal"

@@ -6,7 +6,7 @@ module CoreExtensions
           begin
             size(path)
             return true
-          rescue Net::FTPError => e
+          rescue ::Net::FTPError => e
             err_code = e.message[0, 3].to_i
             raise "SIZE unimplemented on server" if err_code == 500 or err_code == 502
             return false
